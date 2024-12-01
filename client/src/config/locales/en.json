@@ -1,5 +1,14 @@
 {
+  "header": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
   "home": {
-    "welcome": "Welcome to my portfolio."
+    "welcome": "Hello, I'm Balázs Berta",
+    "introduction": {
+      "part1": "A passionate software developer dedicated to building innovative solutions and creating seamless digital experiences. With a strong foundation in backend development and a growing expertise in frontend technologies, I transform complex ideas into functional, user-centric applications.",
+      "part2": "I thrive on clean code, effective collaboration, and the constant pursuit of excellence. Outside of coding, I’m an avid learner, always exploring the latest tech trends and improving my craft. <br />Let’s create something extraordinary together. Visit my <1>About</1> page to learn more about my journey, or feel free to get in touch—I’d love to hear from you!"
+    }
   }
 }

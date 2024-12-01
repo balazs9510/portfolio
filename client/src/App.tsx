@@ -1,19 +1,23 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import theme from "./theme";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
+import createAppTheme from "./config/theme/theme";
+import Layout from "./components/Layout";
 
 function App() {
+  const theme = createAppTheme();
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/experience" element={<Experience />} />
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {/* <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} /> */}
-        </Routes>
+          </Routes>
+        </Layout>
       </BrowserRouter>
     </ThemeProvider>
   );
