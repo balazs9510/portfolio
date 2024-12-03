@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import createAppTheme from "./config/theme/theme";
 import Layout from "./components/Layout";
+import About from "./components/About";
 
 function App() {
   const theme = createAppTheme();
@@ -13,8 +14,8 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+            {/*<Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} /> */}
           </Routes>
         </Layout>
