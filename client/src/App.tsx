@@ -10,7 +10,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      {/* basename is set for matching the GH pages */}
+      <BrowserRouter basename="/portfolio">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
