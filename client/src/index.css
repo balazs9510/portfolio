@@ -28,3 +28,11 @@ body {
   background-size: 300px;
   margin: auto !important;
 }
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: unset;
+}

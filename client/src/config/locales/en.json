@@ -10,5 +10,34 @@
       "part1": "A passionate software developer dedicated to building innovative solutions and creating seamless digital experiences. With a strong foundation in backend development and a growing expertise in frontend technologies, I transform complex ideas into functional, user-centric applications.",
       "part2": "I thrive on clean code, effective collaboration, and the constant pursuit of excellence. Outside of coding, I’m an avid learner, always exploring the latest tech trends and improving my craft. <br />Let’s create something extraordinary together. Visit my <1>About</1> page to learn more about my journey, or feel free to get in touch—I’d love to hear from you!"
     }
+  },
+  "about": {
+    "experiences": {
+      "title": "Work experiences",
+      "diligent": {
+        "title": "Senior Software Engineer at Diligent",
+        "dateRange": "February 2024 – Present",
+        "description": "As a Senior Software Engineer at Diligent, I’ve contributed to a variety of tasks, including developing new features for legacy on-prem versions of our software, enhancing API tests, and fixing bugs across both the backend and frontend. Currently, I am focused on rewriting the system to be cloud-native on AWS, while continuing to add new features to both the frontend and backend. In addition, I’ve been working with AWS CDK to streamline infrastructure management, ensuring a more scalable and efficient system.",
+        "tags": "AWS CDK, AWS Fargate, AWS Api Gateway,.NET 9,ASP.NET CORE, REST API,React,Playwright,Cypress, Fullstack"
+      },
+      "civilTolna": {
+        "title": "IT Technician (contract) at DUPI",
+        "dateRange": "May 2022 – Present",
+        "description": "As a key technical contributor at the Civic Association, I’m responsible for addressing and overcoming any technical challenges that arise. My primary focus is maintaining and improving the association’s main website, which is built using Angular 6 and hosted on Firebase. This site functions as a mini Content Management System (CMS), allowing users to add and manage news posts using CKEditor. I also developed functionality to create dynamic 'template' pages, which are built using CKEditor and loaded from Firestore. Additionally, I implemented file upload capabilities through Firebase Storage, enabling smooth management of assets.",
+        "tags": "Firebase,Angular 6,CKEditor,Firestore,Firebase Storage"
+      },
+      "agco": {
+        "title": "IT Devloper II (MES) at AGCO",
+        "dateRange": "May 2023 – February 2024",
+        "description": "At AGCO, I developed and maintained a web API for the Manufacturing Execution System (MES) used across AGCO factories, focusing on scalable and secure backend solutions. I contributed to feature development, including permission handling and role-based access control, to ensure secure data management. Additionally, I worked on regular system maintenance and implemented quality-of-life improvements to enhance performance, stability, and usability.",
+        "tags": "Azure Devops,ASP.NET Core, React"
+      },
+      "png": {
+        "title": "Backend Developer at Play'n GO",
+        "dateRange": "Jun 2020 – March 2023",
+        "description": "I extended the CI/CD pipeline for iOS clients, improving the development and deployment process. I developed an external client module to display game history for slot games, enhancing user data access. I also automated several internal manual processes, creating tools to streamline workflows. In addition, I developed the logic for two video slot games and prepared games for new jurisdictions, smoothening the process of converting 50 games for the new market and making the remaining 300+ games available. This ensured compliance with new market regulations.",
+        "tags": ".NET 5,PowerShell,Angular,TypeScrip,TeamCity,Bitbucket,Jira Automation,XSLT"
+      }
+    }
   }
 }

@@ -7,9 +7,9 @@ type LayoutProps = {
 };
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <Stack height="100%">
+    <Stack height="100%" width="100%">
       <Header />
-      <Stack component="main" flexGrow="1">
+      <Stack component="main" flexGrow="1" padding={6}>
         {children}
       </Stack>
       <Footer />

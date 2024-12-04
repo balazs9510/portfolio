@@ -2,36 +2,12 @@ import { Box, Stack, Typography } from "@mui/material";
 import { Trans, useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-
-const FadeIn = ({
-  delay,
-  children,
-}: {
-  delay?: number;
-  children: JSX.Element;
-}) => {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay }}
-    >
-      {children}
-    </motion.div>
-  );
-};
+import FadeIn from "./FadeIn";
 
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <Stack
-      height="100%"
-      sx={{
-        // alignItems: "center",
-        justifyContent: "center",
-        padding: 5,
-      }}
-    >
+    <Stack height="100%" justifyContent="center">
       <FadeIn>
         <Typography variant="h1" gutterBottom>
           {t("home.welcome")}
