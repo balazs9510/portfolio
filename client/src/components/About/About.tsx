@@ -1,16 +1,11 @@
 import { Typography } from "@mui/material";
 import AboutSection from "./AboutSection";
 import { useTranslation } from "react-i18next";
+import workExperiences from "./sections/workExperiences";
+import education from "./sections/education";
 
 const About = () => {
   const { t } = useTranslation();
-
-  const steps = ["diligent", "civilTolna", "agco", "png"].map((key) => ({
-    title: t(`about.experiences.${key}.title`),
-    dateRange: t(`about.experiences.${key}.dateRange`),
-    description: `about.experiences.${key}.description`,
-    tags: t(`about.experiences.${key}.tags`).split(","),
-  }));
 
   return (
     <>
@@ -18,7 +13,8 @@ const About = () => {
         About me
       </Typography>
 
-      <AboutSection title={t("about.experiences.title")} steps={steps} />
+      <AboutSection {...workExperiences(t)} />
+      <AboutSection {...education(t)} />
     </>
   );
 };

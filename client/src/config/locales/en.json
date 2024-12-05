@@ -36,7 +36,16 @@
         "title": "Backend Developer at Play'n GO",
         "dateRange": "Jun 2020 – March 2023",
         "description": "I extended the CI/CD pipeline for iOS clients, improving the development and deployment process. I developed an external client module to display game history for slot games, enhancing user data access. I also automated several internal manual processes, creating tools to streamline workflows. In addition, I developed the logic for two video slot games and prepared games for new jurisdictions, smoothening the process of converting 50 games for the new market and making the remaining 300+ games available. This ensured compliance with new market regulations.",
-        "tags": ".NET 5,PowerShell,Angular,TypeScrip,TeamCity,Bitbucket,Jira Automation,XSLT"
+        "tags": ".NET 5,PowerShell,Angular,TypeScript,TeamCity,Bitbucket,Jira Automation,XSLT"
+      }
+    },
+    "education": {
+      "title": "Education",
+      "bmeMsc": {
+        "title": "Master's degree, Computer Software Engineering at Budapest University of Technology and Economics",
+        "dateRange": "January 2018 - January 2020",
+        "description": "Finished on the Software Development specialization. As for my thesis, developed a booking system with real-time data.",
+        "tags": "Software Engineer,Software Development,Client Side Applications,Buisness Intelligence,Angular,ASP.NET,SignalR"
       }
     }
   }

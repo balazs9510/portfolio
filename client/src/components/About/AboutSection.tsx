@@ -1,6 +1,10 @@
 import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
   Box,
   Chip,
+  Stack,
   Step,
   StepContent,
   StepLabel,
@@ -11,6 +15,7 @@ import {
 import { Trans } from "react-i18next";
 import { getRandomColor } from "../../config/theme/colors";
 import FadeIn from "../FadeIn";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 type AboutSectionStep = {
   title: string;
@@ -19,9 +24,10 @@ type AboutSectionStep = {
   tags?: string[];
 };
 
-type AboutSectionProps = {
+export type AboutSectionProps = {
   title: string;
   steps: AboutSectionStep[];
+  icon?: JSX.Element;
 };
 
 const EmptyDot = styled(Box)(({ theme }) => ({
@@ -49,33 +55,51 @@ const StyledChip = styled(Chip)(({ theme: { palette } }) => ({
   },
 }));
 
-const AboutSection = ({ title, steps }: AboutSectionProps) => {
+const AboutSection = ({ title, icon, steps }: AboutSectionProps) => {
   return (
     <>
-      <Typography variant="h2" mb={3} fontSize="2rem">
-        {title}
-      </Typography>
-      <Stepper orientation="vertical" nonLinear>
-        {steps.map((step, index) => (
-          <FadeIn delay={index * 0.15}>
-            <Step active key={step.title}>
-              <StepLabel icon={<EmptyDot />}>{step.title}</StepLabel>
-              <StepContent>
-                {step.dateRange && (
-                  <RangeDateText>{step.dateRange}</RangeDateText>
-                )}
-                <Typography>
-                  <Trans
-                    i18nKey={step.description}
-                    components={{ li: <li />, b: <strong />, ul: <ul /> }}
-                  />
-                </Typography>
-                {step.tags && step.tags.map((t) => <StyledChip label={t} />)}
-              </StepContent>
-            </Step>
-          </FadeIn>
-        ))}
-      </Stepper>
+      <Accordion
+        defaultExpanded
+        sx={{
+          "&.MuiPaper-root": {
+            background: "unset",
+            boxShadow: "unset",
+          },
+        }}
+      >
+        <AccordionSummary expandIcon={<ExpandMoreIcon color="primary" />}>
+          <Stack direction="row" alignItems="center">
+            <Typography variant="h2" fontSize="2rem" pr={1}>
+              {title}
+            </Typography>
+            {icon}
+          </Stack>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Stepper orientation="vertical" nonLinear sx={{ mb: 6 }}>
+            {steps.map((step, index) => (
+              <FadeIn delay={index * 0.15}>
+                <Step active key={step.title}>
+                  <StepLabel icon={<EmptyDot />}>{step.title}</StepLabel>
+                  <StepContent>
+                    {step.dateRange && (
+                      <RangeDateText>{step.dateRange}</RangeDateText>
+                    )}
+                    <Typography>
+                      <Trans
+                        i18nKey={step.description}
+                        components={{ li: <li />, b: <strong />, ul: <ul /> }}
+                      />
+                    </Typography>
+                    {step.tags &&
+                      step.tags.map((t) => <StyledChip label={t} />)}
+                  </StepContent>
+                </Step>
+              </FadeIn>
+            ))}
+          </Stepper>
+        </AccordionDetails>
+      </Accordion>
     </>
   );
 };
