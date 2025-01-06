@@ -45,7 +45,43 @@
         "title": "Master's degree, Computer Software Engineering at Budapest University of Technology and Economics",
         "dateRange": "January 2018 - January 2020",
         "description": "Finished on the Software Development specialization. As for my thesis, developed a booking system with real-time data.",
-        "tags": "Software Engineer,Software Development,Client Side Applications,Buisness Intelligence,Angular,ASP.NET,SignalR"
+        "tags": "Software Engineer,Software Development,Client Side Applications,Buisness Intelligence,Angular,ASP.NET Core,SignalR"
+      },
+      "bmeBsc": {
+        "title": "Bachelor's degree, Computer Software Engineering at Budapest University of Technology and Economics",
+        "dateRange": "September 2014 - January 2018",
+        "description": "Finished on the Software Development specialization. As for my thesis, developed two mobile fitness application with native and cross-platform technologies.",
+        "tags": "Software Engineer,Software Development,Artifical Intelligence,Databases,ASP.NET,Xamarin Forms,Android"
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "aws": {
+        "title": "AWS Certified Developer – Associate",
+        "dateRange": "Oct 2023",
+        "description": "Demonstrates proficiency in developing and deploying secure, scalable, and robust applications on AWS. Validates expertise in core AWS services, architecture best practices, and the ability to write and maintain AWS-based applications. Skilled in using AWS SDKs, optimizing application performance, and ensuring security and scalability in cloud-native environments.",
+        "tags": "AWS SDKs,Lambda,API Gateway,DynamoDB,S3,CloudFormation,Elastic Beanstalk,RDS,ECS,CI/CD pipelines,CloudWatch,IAM,StepFunctions,SQS,SNS"
+      },
+      "csharp": {
+        "title": "Exam 483: Programming in C#",
+        "dateRange": "Aug 2018",
+        "description": "The Exam 483: Programming in C# certification demonstrates proficiency in C# development, covering key areas such as object-oriented programming, asynchronous programming, exception handling, and working with data. It validates skills in building applications using .NET technologies and industry best practices.",
+        "tags": "C#,Object-Oriented Programming,.NET Framework,LINQ,Asynchronous Programming,Exception Handling,Collections,File I/O,Events,Delegate"
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "advanced": {
+        "title": "Advanced",
+        "skills": "C#,ASP.NET Core,.Net8,TypeScript,SQL,Git,CI/CD"
+      },
+      "intermediate": {
+        "title": "Intermediate",
+        "skills": "React,Angular,AWS CDK,AWS CloudFormation,AWS Lambda,AWS ApiGateway,Docker,AWS ECS,jQuery,Bootstrap,FireBase,Jest"
+      },
+      "beginner": {
+        "title": "Beginner",
+        "skills": "XSLT,PowerShell,Android,Xamarin Forms,Playwright,Cypress"
       }
     }
   }

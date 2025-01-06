@@ -1,10 +1,18 @@
 import { AboutSectionProps } from "../AboutSection";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
+import { AboutSectionStepperProps } from "../AboutSectionStepper";
 
 const workExperiences = (t: (key: string) => string): AboutSectionProps => {
   return {
     title: t("about.experiences.title"),
     icon: <WorkOutlineIcon sx={{ fontSize: "2rem" }} />,
+  };
+};
+
+export const workExperiencesSteps = (
+  t: (key: string) => string
+): AboutSectionStepperProps => {
+  return {
     steps: ["diligent", /*"civilTolna",*/ "agco", "png"].map((key) => ({
       title: t(`about.experiences.${key}.title`),
       dateRange: t(`about.experiences.${key}.dateRange`),
@@ -13,5 +21,4 @@ const workExperiences = (t: (key: string) => string): AboutSectionProps => {
     })),
   };
 };
-
 export default workExperiences;
