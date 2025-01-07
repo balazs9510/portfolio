@@ -12,13 +12,20 @@ export type AboutSectionProps = {
   title: string;
   icon?: JSX.Element;
   children?: JSX.Element;
+  expanded?: boolean;
 };
 
-const AboutSection = ({ title, icon, children }: AboutSectionProps) => {
+const AboutSection = ({
+  title,
+  icon,
+  children,
+  expanded,
+}: AboutSectionProps) => {
   return (
     <>
       <Accordion
         defaultExpanded
+        expanded={expanded}
         sx={{
           "&.MuiPaper-root": {
             background: "unset",
@@ -26,7 +33,9 @@ const AboutSection = ({ title, icon, children }: AboutSectionProps) => {
           },
         }}
       >
-        <AccordionSummary expandIcon={<ExpandMoreIcon color="primary" />}>
+        <AccordionSummary
+          expandIcon={expanded ? undefined : <ExpandMoreIcon color="primary" />}
+        >
           <Stack direction="row" alignItems="center">
             <Typography variant="h2" fontSize="2rem" pr={1}>
               {title}

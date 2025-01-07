@@ -1,6 +1,5 @@
 import {
   Box,
-  Chip,
   Step,
   StepContent,
   StepLabel,
@@ -10,7 +9,6 @@ import {
 } from "@mui/material";
 import FadeIn from "../FadeIn";
 import { Trans } from "react-i18next";
-import { getRandomColor } from "../../config/theme/colors";
 
 const EmptyDot = styled(Box)(({ theme }) => ({
   width: 20,
@@ -26,16 +24,16 @@ const RangeDateText = styled(Typography)({
   marginBottom: ".5rem",
 });
 
-const StyledChip = styled(Chip)(({ theme: { palette } }) => ({
-  marginTop: 5,
-  marginRight: 5,
-  backgroundColor: getRandomColor(),
-  color: palette.primary.main,
-  "&:hover": {
-    backgroundColor: palette.primary.dark,
-    color: "white",
-  },
-}));
+// const StyledChip = styled(Chip)(({ theme: { palette } }) => ({
+//   marginTop: 5,
+//   marginRight: 5,
+//   backgroundColor: getRandomColor(),
+//   color: palette.primary.main,
+//   "&:hover": {
+//     backgroundColor: palette.primary.dark,
+//     color: "white",
+//   },
+// }));
 
 type AboutSectionStep = {
   title: string;
@@ -52,7 +50,7 @@ const AboutSectionStepper = ({ steps }: AboutSectionStepperProps) => {
   return (
     <Stepper orientation="vertical" nonLinear sx={{ mb: 6 }}>
       {steps.map((step, index) => (
-        <FadeIn delay={index * 0.15}>
+        <FadeIn delay={index * 0.15} key={index}>
           <Step active key={step.title}>
             <StepLabel icon={<EmptyDot />}>{step.title}</StepLabel>
             <StepContent>
@@ -69,7 +67,7 @@ const AboutSectionStepper = ({ steps }: AboutSectionStepperProps) => {
                   }}
                 />
               </Typography>
-              {step.tags && step.tags.map((t) => <StyledChip label={t} />)}
+              {/* {step.tags && step.tags.map((t) => <StyledChip label={t} />)} */}
             </StepContent>
           </Step>
         </FadeIn>

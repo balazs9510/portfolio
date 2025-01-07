@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import AboutSection from "./AboutSection";
 import { useTranslation } from "react-i18next";
 import workExperiences, {
@@ -9,16 +9,29 @@ import certifications, { certificationsSteps } from "./sections/certifications";
 import Skills from "./Skills";
 import AboutSectionStepper from "./AboutSectionStepper";
 import skills from "./sections/skill";
-
+import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 const About = () => {
   const { t } = useTranslation();
 
   return (
-    <>
+    <Box>
       <Typography variant="h1" mb={6}>
-        About me
+        {t("about.title")}
       </Typography>
 
+      <AboutSection
+        key="mission"
+        title={t("about.mission.title")}
+        icon={<RocketLaunchIcon />}
+        expanded={true}
+      >
+        <Typography
+          variant="h3"
+          sx={{ fontSize: "1.5rem", fontStyle: "italic" }}
+        >
+          {t("about.mission.description")}
+        </Typography>
+      </AboutSection>
       <AboutSection {...skills(t)}>
         <Skills />
       </AboutSection>
@@ -31,7 +44,7 @@ const About = () => {
       <AboutSection {...certifications(t)}>
         <AboutSectionStepper {...certificationsSteps(t)} />
       </AboutSection>
-    </>
+    </Box>
   );
 };
 

@@ -1,11 +1,11 @@
 import { AboutSectionProps } from "../AboutSection";
-import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import { AboutSectionStepperProps } from "../AboutSectionStepper";
+import WorkIcon from "@mui/icons-material/Work";
 
 const workExperiences = (t: (key: string) => string): AboutSectionProps => {
   return {
     title: t("about.experiences.title"),
-    icon: <WorkOutlineIcon sx={{ fontSize: "2rem" }} />,
+    icon: <WorkIcon sx={{ fontSize: "2rem" }} />,
   };
 };
 

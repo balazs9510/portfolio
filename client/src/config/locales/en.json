@@ -12,6 +12,12 @@
     }
   },
   "about": {
+    "title": "About me",
+    "mission": {
+      "title": "My mission",
+      "description": "I strive to transform complex ideas into intuitive applications, blending technical expertise with a user-focused approach. My mission is to create seamless digital experiences that empower users and drive innovation."
+    },
+
     "experiences": {
       "title": "Work experiences",
       "diligent": {
