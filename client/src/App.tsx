@@ -1,5 +1,5 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter , Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import createAppTheme from "./config/theme/theme";
 import Layout from "./components/Layout";
@@ -11,7 +11,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {/* basename is set for matching the GH pages */}
-      <BrowserRouter basename="/portfolio">
+      <HashRouter basename="/portfolio">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} /> */}
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 }

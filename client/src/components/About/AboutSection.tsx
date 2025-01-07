@@ -24,6 +24,7 @@ const AboutSection = ({
   return (
     <>
       <Accordion
+        component="section"
         defaultExpanded
         expanded={expanded}
         sx={{
