@@ -11,7 +11,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {/* basename is set for matching the GH pages */}
-      <HashRouter basename="/portfolio">
+      <HashRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
