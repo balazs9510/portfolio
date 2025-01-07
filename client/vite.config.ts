@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/", // Used for GH Pages
+  base: "/portfolio", // Used for GH Pages
   plugins: [react()],
   build: {
     rollupOptions: {
