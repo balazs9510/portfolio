@@ -1,8 +1,9 @@
 import { Stack, useMediaQuery, useTheme } from "@mui/material";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
-import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import HeaderDrawer from "./HeaderDrawer";
+import StyledNavLink from "../StyledNavLink";
+
 const Header = () => {
   const { t } = useTranslation();
   const theme = useTheme();
@@ -14,15 +15,16 @@ const Header = () => {
       direction="row"
       padding={2}
       justifyContent="space-between"
+      marginBottom={10}
     >
-      <NavLink to="/">
+      <StyledNavLink to="/">
         <RocketLaunchIcon sx={{ fontSize: "2.5rem" }} />
-      </NavLink>
+      </StyledNavLink>
       {!isMobile && (
         <Stack component="nav" direction="row" gap={3} alignItems="center">
-          <NavLink to="/about">{t("header.about")}</NavLink>
-          <NavLink to="/projects">{t("header.projects")}</NavLink>
-          <NavLink to="/contact">{t("header.contact")}</NavLink>
+          <StyledNavLink to="/about">{t("header.about")}</StyledNavLink>
+          <StyledNavLink to="/projects">{t("header.projects")}</StyledNavLink>
+          <StyledNavLink to="/contact">{t("header.contact")}</StyledNavLink>
         </Stack>
       )}
 

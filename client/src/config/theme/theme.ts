@@ -17,6 +17,15 @@ const createAppTheme = (mode: "light" | "dark" = "light") => {
         fontSize: "1.2rem",
       },
     },
+    components: {
+      MuiStepLabel: {
+        styleOverrides: {
+          label: {
+            fontSize: "1.5rem",
+          },
+        },
+      },
+    },
   });
 };
 export default createAppTheme;

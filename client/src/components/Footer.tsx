@@ -1,8 +1,8 @@
-import { IconButton, Stack } from "@mui/material";
+import { IconButton, Stack, useTheme } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook"; // Import your icons
-import { NavLink } from "react-router-dom";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { GitHub } from "@mui/icons-material";
+import StyledNavLink from "./StyledNavLink";
 
 type Contact = {
   url: string;
@@ -22,19 +22,32 @@ const contacts: Contact[] = [
 ];
 
 const Footer = () => {
+  const { palette } = useTheme();
+
   return (
-    <Stack component="footer" direction="row" gap={10} justifyContent="center" padding="1rem">
+    <Stack
+      component="footer"
+      direction="row"
+      gap={10}
+      justifyContent="center"
+      padding="1rem"
+    >
       {contacts.map((contact, index) => (
-        <NavLink
+        <StyledNavLink
           to={contact.url}
           key={index}
           style={{ textDecoration: "none" }}
           target="_blank"
         >
           <IconButton>
-            <contact.icon sx={{ fontSize: "2rem" }} />
+            <contact.icon
+              sx={{
+                fontSize: "2rem",
+                "&:hover": { color: palette.primary.dark },
+              }}
+            />
           </IconButton>
-        </NavLink>
+        </StyledNavLink>
       ))}
     </Stack>
   );

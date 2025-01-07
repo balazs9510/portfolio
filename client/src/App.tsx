@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import createAppTheme from "./config/theme/theme";
 import Layout from "./components/Layout";
-import About from "./components/About";
+import About from "./components/About/About";
 
 function App() {
   const theme = createAppTheme();

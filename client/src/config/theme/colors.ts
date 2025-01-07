@@ -9,21 +9,35 @@ export type AppPalette = {
 };
 
 export const lightPalette: AppPalette = {
-  primary: "#0077B6", // Vibrant blue
-  secondary: "#00B4D8", // Lighter blue
+  primary: "#212529", // Dark gray (for primary text or accents)
+  secondary: "#495057", // Lighter gray (for secondary text or borders)
   background: "#FFFFFF", // White
-  surface: "#F1F5F9", // Light grey
-  textPrimary: "#212529", // Dark grey for main text
-  textSecondary: "#495057", // Slightly lighter grey
-  border: "#DEE2E6", // Subtle grey for dividers/borders
+  surface: "#F8F9FA", // Light gray (for surfaces)
+  textPrimary: "#212529", // Dark gray for main text
+  textSecondary: "#6C757D", // Muted gray for secondary text
+  border: "#DEE2E6", // Subtle light gray for dividers/borders
 };
 
 export const darkPalette: AppPalette = {
-  primary: "#00B4D8", // Light blue
-  secondary: "#90E0EF", // Softer blue
-  background: "#121212", // Dark grey
-  surface: "#1E1E1E", // Slightly lighter dark grey
-  textPrimary: "#E9ECEF", // Light grey for main text
-  textSecondary: "#ADB5BD", // Muted grey
-  border: "#343A40", // Subtle grey for dividers/borders
+  primary: "#212529", // Dark gray
+  secondary: "#495057", // Lighter gray
+  background: "#121212", // Dark background
+  surface: "#1E1E1E", // Slightly lighter dark gray for surfaces
+  textPrimary: "#E9ECEF", // Light gray for text
+  textSecondary: "#ADB5BD", // Muted gray for secondary text
+  border: "#343A40", // Subtle dark gray for dividers/borders
+};
+
+export const chipColors = [
+  "#6C757D", // Muted gray (matches textSecondary)
+  "#ADB5BD", // Lighter gray with a hint of blue
+  "#B0BEC5", // Cool light gray
+  "#CED4DA", // Very light gray
+  "#D6D8DB", // Soft, cool gray
+  "#E9ECEF", // Very light gray (matches textPrimary)
+];
+
+export const getRandomColor = () => {
+  const randomIndex = Math.floor(Math.random() * chipColors.length);
+  return chipColors[randomIndex];
 };
