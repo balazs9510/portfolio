@@ -83,12 +83,85 @@
       },
       "intermediate": {
         "title": "Intermediate",
-        "skills": "React,Angular,AWS CDK,AWS CloudFormation,AWS Lambda,AWS ApiGateway,Docker,AWS ECS,jQuery,Bootstrap,FireBase,Jest"
+        "skills": "React,Angular,AWS CDK,AWS CloudFormation,AWS Lambda,AWS ApiGateway,Docker,AWS ECS,jQuery,Bootstrap,Firebase,Jest"
       },
       "beginner": {
         "title": "Beginner",
         "skills": "XSLT,PowerShell,Android,Xamarin Forms,Playwright,Cypress"
       }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Here are some projects I've worked on in my freetime, showcasing my skills in backend and frontend development.",
+    "techStack": "Technologies",
+    "keyFeatures": "Key Features",
+    "bosz": {
+      "title": "BÖSZ Page",
+      "shortDescription": "Official information site for Bonyhád Alumni Association.",
+      "description": "A comprehensive portal built for my high school's alumni community, featuring a user-friendly interface for members to connect, share updates, and stay informed. The site also included an admin panel with a mini CMS for managing content.",
+      "keyFeatures": [
+        {
+          "title": "Class Tableau Viewer",
+          "desc": "A custom component that displays class photos in a dynamic, searchable, and interactive way."
+        },
+        {
+          "title": "Admin panel",
+          "desc": "A mini CMS for administrators to manage alumni details, events, and updates efficiently."
+        },
+        {
+          "title": "Responsive Design",
+          "desc": "Optimized for use across desktop and mobile devices, ensuring accessibility for all alumni."
+        }
+      ]
+    },
+    "civilTolna": {
+      "title": "Civil Tolna site",
+      "shortDescription": "Official information site for Tolna County Civil Community Service Center",
+      "description": "Tolna County Civil Community Service Center is a web platform designed to support and engage the local civic community. The site serves as an information hub, featuring weekly updates with news articles, reference documents, and newsletters. It also includes a public civic database for transparent and easy access to relevant community resources. \r\nBuilt with a user-friendly interface and a robust mini CMS for administrators, the platform enables efficient content management and ensures that vital updates are promptly delivered to the community.",
+      "keyFeatures": [
+        {
+          "title": "Weekly News Updates",
+          "desc": "Easily publish and manage community-related news to keep users informed."
+        },
+        {
+          "title": "Reference Documents & Newsletters",
+          "desc": "Centralized repository for downloadable documents and periodic newsletters."
+        },
+        {
+          "title": "Public Civic Database",
+          "desc": "Transparent and accessible database for community members to find relevant information about local organizations and initiatives."
+        },
+        {
+          "title": "Admin Mini CMS",
+          "desc": "Simplified content management system for administrators to add and update site content efficiently."
+        }
+      ]
+    },
+    "tictactoe": {
+      "title": "Tic-Tac-Toe Game",
+      "shortDescription": "A customizable Tic-Tac-Toe game built with Angular, featuring adjustable grid size (up to 8x8) and win conditions for added challenge and flexibility.",
+      "description": "This Tic-Tac-Toe game takes the classic concept to the next level with customizable gameplay options. Built using Angular, it allows users to set the grid size up to 8x8 and define the number of consecutive marks needed to win (up to 8). The clean and responsive interface ensures an engaging experience on all devices. Whether for casual play or testing strategic skills on larger boards, this project adds a fun twist to the timeless game.",
+      "keyFeatures": []
+    },
+    "spockup": {
+      "title": "Spockup",
+      "shortDescription": "Backup your best Spotify playlists.",
+      "description": "The intention of this applicaiton is to provide a functionaility for all Spotify users to backup their favourite playlists. You can create a backup at any time and do changes on the original list. Do you like the old version better? Just restore it from the backup.\r\nThis app hasn't been released yet.",
+      "keyFeatures": [
+        {
+          "title": "OAuth 2.0 login",
+          "desc": "The app is built by using the Spotify Auth flow to be secure for the users."
+        },
+        {
+          "title": "Backup playlist",
+          "desc": "Saving your favourite playlist at any time."
+        },
+        {
+          "title": "Restore from backup",
+          "desc": "Use your backups to restore your playlist into a new."
+        }
+      ]
     }
   }
 }

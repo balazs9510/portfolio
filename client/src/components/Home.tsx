@@ -7,7 +7,7 @@ import FadeIn from "./FadeIn";
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <Stack height="100%" justifyContent="center">
+    <Stack height="100%" justifyContent="center" mt={8}>
       <FadeIn>
         <Typography variant="h1" gutterBottom>
           {t("home.welcome")}

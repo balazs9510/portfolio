@@ -15,7 +15,7 @@ const Header = () => {
       direction="row"
       padding={2}
       justifyContent="space-between"
-      marginBottom={10}
+      marginBottom={2}
     >
       <StyledNavLink to="/">
         <RocketLaunchIcon sx={{ fontSize: "2.5rem" }} />

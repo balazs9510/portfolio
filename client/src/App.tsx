@@ -1,9 +1,10 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { HashRouter , Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import createAppTheme from "./config/theme/theme";
 import Layout from "./components/Layout";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const theme = createAppTheme();
@@ -16,8 +17,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            {/*<Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/projects" element={<Projects />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
           </Routes>
         </Layout>
       </HashRouter>
