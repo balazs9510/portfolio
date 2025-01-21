@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import Thanks from "./components/Thanks/Thanks";
 
 function App() {
   const theme = createAppTheme();
@@ -20,6 +21,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/thanks" element={<Thanks />} />
           </Routes>
         </Layout>
       </HashRouter>

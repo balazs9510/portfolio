@@ -163,5 +163,28 @@
         }
       ]
     }
+  },
+  "contact": {
+    "title": "Contact me",
+    "subtitle": "Have a question, feedback, or just want to say hello? I'd love to hear from you! Fill out the form below, and I'll get back to you as soon as I can.",
+    "submit": "Submit",
+    "fields": {
+      "name": {
+        "label": "Your name",
+        "min": "Name is required.",
+        "max": "Name must less than 400 characters."
+      },
+      "email": {
+        "label": "Your e-mail",
+        "min": "E-mail is required.",
+        "max": "E-mail must less than 400 characters.",
+        "email": "Must be a valid e-mail address."
+      },
+      "subject": {
+        "label": "Subject",
+        "min": "Subject is required.",
+        "max": "Subject must less than 1000 characters."
+      }
+    }
   }
 }
