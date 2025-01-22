@@ -182,7 +182,7 @@
       },
       "subject": {
         "label": "Subject",
-        "min": "Subject is required.",
+        "min": "Subject is minimum 100 characters",
         "max": "Subject must less than 1000 characters."
       }
     }

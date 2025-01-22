@@ -1,30 +1,14 @@
-import { Button, TextField, Typography } from "@mui/material";
-import { z } from "zod";
+import { Button, Paper, TextField, Typography } from "@mui/material";
 import useTr from "../../hooks/useTr";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useNavigate } from "react-router-dom";
+import useContactSchema, { ContactSchemaType } from "./Contact.schema";
 
 const Contact = () => {
   const { tr } = useTr();
   const navigate = useNavigate();
-  const schema = z.object({
-    name: z
-      .string()
-      .min(1, tr.contact.fields.name.min)
-      .max(400, tr.contact.fields.name.max),
-    email: z
-      .string()
-      .min(1, tr.contact.fields.email.min)
-      .max(400, tr.contact.fields.email.max)
-      .email(tr.contact.fields.email.email),
-    subject: z
-      .string()
-      .min(1, tr.contact.fields.subject.min)
-      .max(1000, tr.contact.fields.subject.max),
-  });
 
-  type ContactSchemaType = z.infer<typeof schema>;
   const {
     control,
     trigger,
@@ -36,7 +20,7 @@ const Contact = () => {
       email: "",
       subject: "",
     },
-    resolver: zodResolver(schema),
+    resolver: zodResolver(useContactSchema().schema),
   });
 
   const onSubmit = async (data: ContactSchemaType) => {
@@ -53,8 +37,6 @@ const Contact = () => {
           Accept: "application/json",
         },
       });
-      console.log(result);
-      console.log(await result.text());
       if (result.ok) {
         navigate("/thanks");
       }
@@ -101,17 +83,21 @@ const Contact = () => {
       <Typography variant="h1" mb={2}>
         {tr.contact.title}
       </Typography>
-      <Typography variant="body1" mb={4}>
-        {tr.contact.subtitle}
-      </Typography>
-      <form onSubmit={handleSubmit(onSubmit)}>
-        {renderField("name")}
-        {renderField("email")}
-        {renderField("subject", undefined, true)}
-        <Button variant="contained" type="submit">
-          {tr.contact.submit}
-        </Button>
-      </form>
+
+      <Paper sx={{ p: 2 }}>
+        <Typography variant="body1" mb={4}>
+          {tr.contact.subtitle}
+        </Typography>
+        <form onSubmit={handleSubmit(onSubmit)}>
+          {renderField("name")}
+          {renderField("email")}
+          {renderField("subject", undefined, true)}
+
+          <Button variant="contained" type="submit">
+            {tr.contact.submit}
+          </Button>
+        </form>
+      </Paper>
     </>
   );
 };
