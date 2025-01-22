@@ -1,78 +1,77 @@
-import { Box, IconButton, Typography } from "@mui/material";
-import { NavLink } from "react-router-dom";
-import CloseIcon from "@mui/icons-material/Close"; // Close icon
+import {
+  Drawer,
+  IconButton,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+} from "@mui/material";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
+import useTr from "../../hooks/useTr";
+import StyledNavLink from "../StyledNavLink";
+import ContactPageIcon from "@mui/icons-material/ContactPage";
+import LaptopWindowsIcon from "@mui/icons-material/LaptopWindows";
+import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 const HeaderDrawer = () => {
   const [menuOpen, setMenuOpen] = useState(false); // State to toggle mobile menu
   const toggleMenu = () => setMenuOpen(!menuOpen); // Toggle menu visibility
+  const { tr } = useTr();
 
   return (
     <>
       <IconButton edge="end" color="inherit" onClick={toggleMenu}>
         <MenuIcon />
       </IconButton>
-      {menuOpen && (
-        <Box
-          sx={{
-            position: "fixed",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            backgroundColor: "rgba(0, 0, 0, 0.7)", // Dark overlay
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            zIndex: 20,
-          }}
-        >
-          <Box
-            sx={{
-              backgroundColor: "background.paper",
-              padding: 3,
-              borderRadius: 1,
-              boxShadow: 3,
-              width: "80%",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            {/* Close Button */}
-            <IconButton onClick={toggleMenu} sx={{ alignSelf: "flex-end" }}>
-              <CloseIcon />
-            </IconButton>
-
-            {/* Mobile Navigation Links */}
-            <NavLink
-              to="/about"
-              style={{ textDecoration: "none", margin: "1rem 0" }}
-            >
-              <Typography variant="h6" sx={{ color: "text.primary" }}>
-                About
-              </Typography>
-            </NavLink>
-            <NavLink
-              to="/projects"
-              style={{ textDecoration: "none", margin: "1rem 0" }}
-            >
-              <Typography variant="h6" sx={{ color: "text.primary" }}>
-                Projects
-              </Typography>
-            </NavLink>
-            <NavLink
-              to="/contact"
-              style={{ textDecoration: "none", margin: "1rem 0" }}
-            >
-              <Typography variant="h6" sx={{ color: "text.primary" }}>
-                Contact
-              </Typography>
-            </NavLink>
-          </Box>
-        </Box>
-      )}
+      <Drawer
+        open={menuOpen}
+        onClose={() => setMenuOpen(false)}
+        PaperProps={{
+          sx: {
+            width: "70%",
+          },
+        }}
+      >
+        <List sx={{ "& .MuiListItemIcon-root": { minWidth: "unset", mr: 2 } }}>
+          <ListItem>
+            <ListItemIcon>
+              <LanguageSwitcher />
+            </ListItemIcon>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <ContactPageIcon></ContactPageIcon>
+            </ListItemIcon>
+            <ListItemText>
+              <StyledNavLink to="/about" sx={{ fontSize: "2rem" }}>
+                {tr.header.about}
+              </StyledNavLink>
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <LaptopWindowsIcon></LaptopWindowsIcon>
+            </ListItemIcon>
+            <ListItemText>
+              <StyledNavLink to="/projects" sx={{ fontSize: "2rem" }}>
+                {tr.header.projects}
+              </StyledNavLink>
+            </ListItemText>
+          </ListItem>
+          <ListItem>
+            <ListItemIcon sx={{ fontSize: "2rem" }}>
+              <AlternateEmailIcon></AlternateEmailIcon>
+            </ListItemIcon>
+            <ListItemText>
+              <StyledNavLink to="/contact" sx={{ fontSize: "2rem" }}>
+                {tr.header.contact}
+              </StyledNavLink>
+            </ListItemText>
+          </ListItem>
+        </List>
+      </Drawer>
     </>
   );
 };

@@ -191,5 +191,13 @@
     "title": "Thank You for Reaching Out!",
     "subtitle": "In the meantime, why not check out some of my projects or connect with me on LinkedIn.",
     "cta": "Explore my projects"
+  },
+  "languages": {
+    "english": "English",
+    "hungarian": "Hungarian",
+    "japanense": "Japan (by GPT)",
+    "german": "German (by GPT)",
+    "swedish": "Swedish (by GPT)",
+    "french": "French (by GPT)"
   }
 }

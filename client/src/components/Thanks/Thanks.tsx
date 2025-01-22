@@ -33,7 +33,7 @@ const Thanks = () => {
           sx={{ display: "flex", alignItems: "center" }}
         >
           {tr.thanks.cta}
-          <ChevronRightIcon></ChevronRightIcon>
+          <ChevronRightIcon />
         </StyledNavLink>
       </Box>
     </Stack>
