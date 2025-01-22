@@ -186,5 +186,10 @@
         "max": "Subject must less than 1000 characters."
       }
     }
+  },
+  "thanks": {
+    "title": "Thank You for Reaching Out!",
+    "subtitle": "In the meantime, why not check out some of my projects or connect with me on LinkedIn.",
+    "cta": "Explore my projects"
   }
 }
