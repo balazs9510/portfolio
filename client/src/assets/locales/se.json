@@ -1,0 +1,203 @@
+{
+  "header": {
+    "about": "Om mig",
+    "projects": "Projekt",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "welcome": "Hej, jag är Balázs Berta",
+    "introduction": {
+      "part1": "En passionerad mjukvaruutvecklare som är dedikerad till att bygga innovativa lösningar och skapa sömlösa digitala upplevelser. Med en stark grund i backendutveckling och växande expertis inom frontendteknologier, omvandlar jag komplexa idéer till funktionella, användarcentrerade applikationer.",
+      "part2": "Jag trivs med att skriva ren kod, främja effektivt samarbete och sträva efter excellens i allt jag gör. Utanför kodning är jag en entusiastisk lärande, ständigt utforskande de senaste tekniktrenderna och finslipande mina färdigheter. <br />Låt oss skapa något extraordinärt tillsammans! Besök min <1>Om mig</1> sida för att lära dig mer om min resa, eller tveka inte att ta kontakt—jag skulle gärna höra från dig!"
+    },
+    "seeMyProjects": "Se mina projekt"
+  },
+  "about": {
+    "title": "Om mig",
+    "mission": {
+      "title": "Mitt uppdrag",
+      "description": "Jag strävar efter att omvandla komplexa idéer till intuitiva applikationer genom att kombinera teknisk expertis och en användarcentrerad metod. Mitt uppdrag är att stärka användare och främja innovation genom att skapa smidiga digitala upplevelser."
+    },
+    "experiences": {
+      "title": "Arbetslivserfarenhet",
+      "diligent": {
+        "title": "Senior Software Engineer på Diligent",
+        "dateRange": "Februari 2024 – Nuvarande",
+        "description": "Som Senior Software Engineer på Diligent har jag utvecklat nya funktioner, förbättrat API-tester och åtgärdat buggar både på backend och frontend. För närvarande fokuserar jag på att omstrukturera systemen till en cloud-native arkitektur på AWS och utvecklar nya funktioner för både backend och frontend. Jag hanterar även infrastrukturen med AWS CDK för att öka effektiviteten.",
+        "tags": "AWS CDK, AWS Fargate, AWS Api Gateway,.NET 9,ASP.NET CORE, REST API,React,Playwright,Cypress, Fullstack"
+      },
+      "civilTolna": {
+        "title": "IT-tekniker (kontrakt) på Civil Association DUPI",
+        "dateRange": "Maj 2022 – Nuvarande",
+        "description": "Jag spelar en nyckelroll i att lösa tekniska problem inom Civil Association. Jag har arbetat med att underhålla och förbättra webbplatser med Angular 6 och utvecklat en CMS-funktion där användare kan lägga till och hantera nyheter med CKEditor. Jag utvecklade också en lösning som skapar dynamiska 'template'-sidor från Firestore och renderar dem i CKEditor. Dessutom implementerade jag en lösning för filuppladdningar via Firebase Storage för att underlätta verktygshantering.",
+        "tags": "Firebase,Angular 6,CKEditor,Firestore,Firebase Storage"
+      },
+      "agco": {
+        "title": "IT-utvecklare II (MES) på AGCO",
+        "dateRange": "Maj 2023 – Februari 2024",
+        "description": "På AGCO utvecklade och underhöll jag en web API för Manufacturing Execution System (MES) och fokuserade på skalbara och säkra backend-lösningar. Jag arbetade med att utveckla funktioner som rollbaserad åtkomstkontroll för att säkerställa datasekretess. Jag ansvarade också för regelbundet underhåll och förbättringar för att optimera prestanda, stabilitet och användarvänlighet.",
+        "tags": "Azure Devops,ASP.NET Core, React"
+      },
+      "png": {
+        "title": "Backend-utvecklare på Play'n GO",
+        "dateRange": "Juni 2020 – Mars 2023",
+        "description": "Jag utökade CI/CD-pipelinen för iOS-klienten för att förbättra utvecklings- och distributionsprocessen. Jag utvecklade ett externt modul för att visa spelhistorik och förbättra åtkomsten till användardata. Jag automatiserade också flera interna processer genom att skapa verktyg som förenklade arbetsflödena. Jag utvecklade även logiken för två videoslots och förberedde dem för nya jurisdiktioner för att underlätta lansering på nya marknader och gjorde över 300 spel tillgängliga. Detta säkerställde efterlevnad av de nya marknadernas regler.",
+        "tags": ".NET 5,PowerShell,Angular,TypeScript,TeamCity,Bitbucket,Jira Automation,XSLT"
+      }
+    },
+    "education": {
+      "title": "Utbildning",
+      "bmeMsc": {
+        "title": "Masterexamen i programvaruutveckling från Budapests tekniska universitet",
+        "dateRange": "Januari 2018 - Januari 2020",
+        "description": "Jag avslutade min masterexamen i programvaruutveckling. I min avhandling utvecklade jag ett bokningssystem som arbetar med realtidsdata.",
+        "tags": "Programvaruteknik, Programvaruutveckling, Klient-server-applikationer, Business Intelligence, Angular, ASP.NET Core, SignalR"
+      },
+      "bmeBsc": {
+        "title": "Kandidatexamen i programvaruutveckling från Budapests tekniska universitet",
+        "dateRange": "September 2014 - Januari 2018",
+        "description": "Jag avslutade min kandidatexamen i programvaruutveckling. I min avhandling utvecklade jag två fitness-appar med både inbyggda och plattformsoberoende teknologier.",
+        "tags": "Programvaruteknik, Programvaruutveckling, Artificiell intelligens, Databaser, ASP.NET, Xamarin Forms, Android"
+      }
+    },
+    "certifications": {
+      "title": "Certifikat",
+      "aws": {
+        "title": "AWS Certified Developer – Associate",
+        "dateRange": "Oktober 2023",
+        "description": "Detta certifikat visar expertkunskaper i att utveckla och distribuera säkra, skalbara och robusta applikationer på AWS. Det bekräftar behärskning av grundläggande AWS-tjänster, arkitekturbästa praxis och skapande samt underhåll av applikationer på AWS. Det visar också förmågan att använda AWS SDKs, optimera applikationsprestanda och säkerställa säkerhet och skalbarhet i molnmiljöer.",
+        "tags": "AWS SDKs,Lambda,API Gateway,DynamoDB,S3,CloudFormation,Elastic Beanstalk,RDS,ECS,CI/CD-pipelines,CloudWatch,IAM,StepFunctions,SQS,SNS"
+      },
+      "csharp": {
+        "title": "Exam 483: Programming in C#",
+        "dateRange": "Augusti 2018",
+        "description": "Exam 483: Programming in C# certifiering bekräftar kompetens inom C#-utveckling, inklusive objektorienterad programmering, asynkron programmering, felhantering och datastyrning. Det visar också förmågan att hantera .NET-teknologier och bästa praxis i branschen.",
+        "tags": "C#,Objektorienterad programmering,.NET Framework,LINQ,Asynkron programmering,Felhantering,Samlingar,Fil I/O,Events,Delegates"
+      }
+    },
+    "skills": {
+      "title": "Färdigheter",
+      "advanced": {
+        "title": "Avancerad",
+        "skills": "C#,ASP.NET Core,.Net8,TypeScript,SQL,Git,CI/CD"
+      },
+      "intermediate": {
+        "title": "Mellanliggande",
+        "skills": "React,Angular,AWS CDK,AWS CloudFormation,AWS Lambda,AWS ApiGateway,Docker,AWS ECS,jQuery,Bootstrap,Firebase,Jest"
+      },
+      "beginner": {
+        "title": "Nybörjare",
+        "skills": "XSLT,PowerShell,Android,Xamarin Forms,Playwright,Cypress"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projekt",
+    "intro": "Här är några projekt jag har arbetat med på min fritid, som visar mina färdigheter inom backend- och frontendutveckling.",
+    "techStack": "Tekniker",
+    "keyFeatures": "Huvudfunktioner",
+    "bosz": {
+      "title": "BÖSZ-sida",
+      "shortDescription": "Officiell informationssida för Bonyhád Alumni-förening.",
+      "description": "Ett omfattande portal byggt för mitt gymnasiums alumnigemenskap, med ett användarvänligt gränssnitt för medlemmar att ansluta, dela uppdateringar och hålla sig informerade. Sidan inkluderade också ett adminpanel med ett mini-CMS för att hantera innehåll.",
+      "keyFeatures": [
+        {
+          "title": "Class Tableau Viewer",
+          "desc": "En anpassad komponent som visar klassfoton på ett dynamiskt, sökbart och interaktivt sätt."
+        },
+        {
+          "title": "Adminpanel",
+          "desc": "Ett mini-CMS för administratörer att effektivt hantera alumniuppgifter, evenemang och uppdateringar."
+        },
+        {
+          "title": "Responsiv design",
+          "desc": "Optimerad för användning på både stationära och mobila enheter, vilket säkerställer tillgänglighet för alla alumni."
+        }
+      ]
+    },
+    "civilTolna": {
+      "title": "Civil Tolna-sida",
+      "shortDescription": "Officiell informationssida för Tolna County Civil Community Service Center",
+      "description": "Tolna County Civil Community Service Center är en webbplattform som är utformad för att stödja och engagera den lokala medborgargemenskapen. Sidan fungerar som ett informationsnav och har veckovisa uppdateringar med nyhetsartiklar, referensdokument och nyhetsbrev. Den inkluderar också en offentlig medborgardatabas för transparent och enkel tillgång till relevanta samhällsresurser. \r\nByggd med ett användarvänligt gränssnitt och ett robust mini-CMS för administratörer, gör plattformen effektiv innehållshantering möjligt och säkerställer att viktiga uppdateringar snabbt når samhället.",
+      "keyFeatures": [
+        {
+          "title": "Veckovisa nyhetsuppdateringar",
+          "desc": "Lätt att publicera och hantera gemenskapsrelaterade nyheter för att hålla användarna informerade."
+        },
+        {
+          "title": "Referensdokument & nyhetsbrev",
+          "desc": "Centraliserad lagring för nedladdningsbara dokument och periodiska nyhetsbrev."
+        },
+        {
+          "title": "Offentlig medborgardatabas",
+          "desc": "Transparent och tillgänglig databas där samhällsmedlemmar kan hitta relevant information om lokala organisationer och initiativ."
+        },
+        {
+          "title": "Admin Mini CMS",
+          "desc": "Förenklat innehållshanteringssystem för administratörer att effektivt lägga till och uppdatera webbplatsinnehåll."
+        }
+      ]
+    },
+    "tictactoe": {
+      "title": "Tic-Tac-Toe Spel",
+      "shortDescription": "Ett anpassningsbart Tic-Tac-Toe spel byggt med Angular, med justerbar rutstorlek (upp till 8x8) och vinstvillkor för extra utmaning och flexibilitet.",
+      "description": "Detta Tic-Tac-Toe spel tar det klassiska konceptet till nästa nivå med anpassningsbara spelalternativ. Byggt med Angular, tillåter det användare att ställa in rutstorleken upp till 8x8 och definiera antalet på varandra följande markeringar som krävs för att vinna (upp till 8). Den rena och responsiva gränssnittet säkerställer en engagerande upplevelse på alla enheter. Oavsett om du spelar för att koppla av eller testar strategiska färdigheter på större brädor, ger detta projekt en rolig twist på det tidlösa spelet.",
+      "keyFeatures": []
+    },
+    "spockup": {
+      "title": "Spockup",
+      "shortDescription": "Säkerhetskopiera dina bästa Spotify-spellistor.",
+      "description": "Syftet med denna applikation är att ge alla Spotify-användare möjlighet att säkerhetskopiera sina favoritspellistor. Du kan skapa en säkerhetskopia när som helst och göra ändringar på den ursprungliga listan. Gillar du den gamla versionen bättre? Återställ den bara från säkerhetskopian.\nDenna app har ännu inte släppts.",
+      "keyFeatures": [
+        {
+          "title": "OAuth 2.0 inloggning",
+          "desc": "Appen är byggd med hjälp av Spotify Auth-flödet för att vara säker för användarna."
+        },
+        {
+          "title": "Säkerhetskopiera spellista",
+          "desc": "Spara din favoritspellista när som helst."
+        },
+        {
+          "title": "Återställ från säkerhetskopia",
+          "desc": "Använd dina säkerhetskopior för att återställa din spellista."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Kontakta mig",
+    "subtitle": "Har du en fråga, feedback eller vill du bara säga hej? Jag skulle gärna höra från dig! Fyll i formuläret nedan, så återkommer jag till dig så snart jag kan.",
+    "submit": "Skicka",
+    "fields": {
+      "name": {
+        "label": "Ditt namn",
+        "min": "Namn är obligatoriskt.",
+        "max": "Namnet måste vara mindre än 400 tecken."
+      },
+      "email": {
+        "label": "Din e-post",
+        "min": "E-post är obligatoriskt.",
+        "max": "E-post måste vara mindre än 400 tecken.",
+        "email": "Det måste vara en giltig e-postadress."
+      },
+      "subject": {
+        "label": "Ämne",
+        "min": "Ämnet måste vara minst 100 tecken.",
+        "max": "Ämnet får vara mindre än 1000 tecken."
+      }
+    }
+  },
+  "thanks": {
+    "title": "Tack för att du kontaktade oss!",
+    "subtitle": "Under tiden kan du kolla in några av mina projekt eller ansluta med mig på LinkedIn.",
+    "cta": "Utforska mina projekt"
+  },
+  "languages": {
+    "english": "Engelska",
+    "hungarian": "Ungerska",
+    "japanense": "Japanska (av GPT)",
+    "german": "Tyska (av GPT)",
+    "swedish": "Svenska (av GPT)",
+    "french": "Franska (av GPT)"
+  }
+}

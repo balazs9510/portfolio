@@ -1,0 +1,203 @@
+{
+  "header": {
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Bonjour, je suis Balázs Berta",
+    "introduction": {
+      "part1": "Un développeur logiciel passionné, dédié à la création de solutions innovantes et à la conception d'expériences numériques fluides. Avec une solide formation en développement backend et une expertise croissante en technologies frontend, je transforme des idées complexes en applications fonctionnelles et centrées sur l'utilisateur.",
+      "part2": "Je suis passionné par l'écriture de code propre, la promotion de la collaboration efficace et la recherche de l'excellence dans tout ce que je fais. En dehors du codage, je suis un apprenant assidu, toujours à la recherche des dernières tendances technologiques et affinant mes compétences. <br />Créons quelque chose d'extraordinaire ensemble ! Visitez ma page <1>À propos</1> pour en savoir plus sur mon parcours, ou n'hésitez pas à me contacter—j'aimerais avoir de vos nouvelles !"
+    },
+    "seeMyProjects": "Voir mes projets"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "mission": {
+      "title": "Ma mission",
+      "description": "Je m'efforce de transformer des idées complexes en applications intuitives, alliant expertise technique et approche centrée sur l'utilisateur. Ma mission est de créer des expériences numériques fluides qui habilitent les utilisateurs et stimulent l'innovation."
+    },
+    "experiences": {
+      "title": "Expériences professionnelles",
+      "diligent": {
+        "title": "Senior Software Engineer chez Diligent",
+        "dateRange": "Février 2024 – Présent",
+        "description": "En tant que Senior Software Engineer chez Diligent, j'ai contribué à diverses tâches, notamment le développement de nouvelles fonctionnalités pour les versions locales héritées de notre logiciel, l'amélioration des tests d'API et la correction des bogues sur le backend et le frontend. Actuellement, je me concentre sur la réécriture du système pour le rendre natif sur AWS, tout en continuant à ajouter de nouvelles fonctionnalités au frontend et au backend. De plus, je travaille avec AWS CDK pour rationaliser la gestion de l'infrastructure et garantir un système plus évolutif et efficace.",
+        "tags": "AWS CDK, AWS Fargate, AWS Api Gateway,.NET 9,ASP.NET CORE, REST API,React,Playwright,Cypress, Fullstack"
+      },
+      "civilTolna": {
+        "title": "Technicien informatique (contrat) chez DUPI",
+        "dateRange": "Mai 2022 – Présent",
+        "description": "En tant que contributeur technique clé à l'Association Civique, je suis responsable de résoudre et de surmonter les défis techniques qui se présentent. Mon principal objectif est de maintenir et d'améliorer le site web principal de l'association, qui est construit avec Angular 6 et hébergé sur Firebase. Le site fonctionne comme un mini-système de gestion de contenu (CMS), permettant aux utilisateurs d'ajouter et de gérer les actualités à l'aide de CKEditor. De plus, j'ai développé une fonctionnalité permettant de créer des pages 'template' dynamiques qui sont remplies à partir de Firestore et rendues visibles par l'intermédiaire de CKEditor. J'ai également implémenté une solution de téléchargement de fichiers via Firebase Storage, permettant une gestion fluide des outils.",
+        "tags": "Firebase,Angular 6,CKEditor,Firestore,Firebase Storage"
+      },
+      "agco": {
+        "title": "Développeur informatique II (MES) chez AGCO",
+        "dateRange": "Mai 2023 – Février 2024",
+        "description": "Chez AGCO, j'ai développé et maintenu une API web pour le système d'exécution de la fabrication (MES) utilisé dans les usines AGCO, en me concentrant sur des solutions backend évolutives et sécurisées. J'ai contribué au développement de fonctionnalités telles que la gestion des autorisations et l'accès basé sur les rôles pour garantir la sécurité des données. J'ai également assuré la maintenance régulière et mis en œuvre des améliorations de la qualité de vie pour améliorer les performances, la stabilité et la convivialité.",
+        "tags": "Azure Devops,ASP.NET Core, React"
+      },
+      "png": {
+        "title": "Développeur backend chez Play'n GO",
+        "dateRange": "Juin 2020 – Mars 2023",
+        "description": "J'ai étendu le pipeline CI/CD du client iOS, améliorant le processus de développement et de déploiement. J'ai développé un module externe pour afficher l'historique des jeux de machines à sous et améliorer l'accès aux données utilisateur. J'ai aussi automatisé plusieurs processus internes, en créant des outils pour simplifier les flux de travail. En outre, j'ai développé la logique de deux jeux de machines à sous vidéo et j'ai préparé ces jeux pour de nouvelles juridictions, facilitant leur déploiement sur de nouveaux marchés et rendant plus de 300 jeux disponibles. Cela a garanti la conformité avec les régulations des nouveaux marchés.",
+        "tags": ".NET 5,PowerShell,Angular,TypeScript,TeamCity,Bitbucket,Jira Automation,XSLT"
+      }
+    },
+    "education": {
+      "title": "Éducation",
+      "bmeMsc": {
+        "title": "Master, Développement logiciel à l'Université technique de Budapest",
+        "dateRange": "Janvier 2018 - Janvier 2020",
+        "description": "J'ai obtenu un master en développement logiciel. Dans le cadre de mon mémoire, j'ai développé un système de réservation traitant des données en temps réel.",
+        "tags": "Ingénierie logicielle, Développement logiciel, Applications cliente-serveur, Business Intelligence, Angular, ASP.NET Core, SignalR"
+      },
+      "bmeBsc": {
+        "title": "Licence, Développement logiciel à l'Université technique de Budapest",
+        "dateRange": "Septembre 2014 - Janvier 2018",
+        "description": "J'ai obtenu une licence en développement logiciel. Dans mon mémoire, j'ai développé deux applications mobiles de fitness en utilisant des technologies natives et multiplateformes.",
+        "tags": "Ingénierie logicielle, Développement logiciel, Intelligence artificielle, Bases de données, ASP.NET, Xamarin Forms, Android"
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "aws": {
+        "title": "Développeur certifié AWS – Associé",
+        "dateRange": "Octobre 2023",
+        "description": "Certification qui démontre l'expertise dans le développement et le déploiement d'applications sécurisées, évolutives et robustes sur AWS. Elle valide la maîtrise des services AWS essentiels, les bonnes pratiques d'architecture et la création et maintenance d'applications basées sur AWS. Elle confirme la compétence dans l'utilisation des SDK AWS, l'optimisation des performances des applications, ainsi que la sécurité et la scalabilité des environnements cloud.",
+        "tags": "SDK AWS,Lambda,API Gateway,DynamoDB,S3,CloudFormation,Elastic Beanstalk,RDS,ECS,CI/CD pipelines,CloudWatch,IAM,StepFunctions,SQS,SNS"
+      },
+      "csharp": {
+        "title": "Exam 483: Programming in C#",
+        "dateRange": "Août 2018",
+        "description": "La certification Exam 483 : Programming in C# valide la maîtrise du développement en C#, incluant la programmation orientée objet, la programmation asynchrone, la gestion des exceptions et la gestion des données. Elle atteste des compétences dans l'application des technologies .NET et des meilleures pratiques industrielles.",
+        "tags": "C#,Programmation orientée objet,.NET Framework,LINQ,Programmation asynchrone,Gestion des exceptions,Collections,Entrées/Sorties de fichiers,Événements,Délégués"
+      }
+    },
+    "skills": {
+      "title": "Compétences",
+      "advanced": {
+        "title": "Avancé",
+        "skills": "C#,ASP.NET Core,.Net8,TypeScript,SQL,Git,CI/CD"
+      },
+      "intermediate": {
+        "title": "Intermédiaire",
+        "skills": "React,Angular,AWS CDK,AWS CloudFormation,AWS Lambda,AWS ApiGateway,Docker,AWS ECS,jQuery,Bootstrap,Firebase,Jest"
+      },
+      "beginner": {
+        "title": "Débutant",
+        "skills": "XSLT,PowerShell,Android,Xamarin Forms,Playwright,Cypress"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "intro": "Voici quelques projets sur lesquels j'ai travaillé pendant mon temps libre, mettant en avant mes compétences en développement backend et frontend.",
+    "techStack": "Technologies",
+    "keyFeatures": "Caractéristiques principales",
+    "bosz": {
+      "title": "Page BÖSZ",
+      "shortDescription": "Site d'informations officiel pour l'Association des Anciens Élèves de Bonyhád.",
+      "description": "Un portail complet créé pour la communauté des anciens élèves de mon lycée, avec une interface conviviale permettant aux membres de se connecter, de partager des mises à jour et de rester informés. Le site incluait également un panneau d'administration avec un mini-CMS pour gérer le contenu.",
+      "keyFeatures": [
+        {
+          "title": "Visionneuse Tableau de Classe",
+          "desc": "Un composant personnalisé qui affiche les photos de classe de manière dynamique, interactive et recherchable."
+        },
+        {
+          "title": "Panneau d'administration",
+          "desc": "Un mini-CMS pour permettre aux administrateurs de gérer efficacement les détails des anciens élèves, les événements et les mises à jour."
+        },
+        {
+          "title": "Design Responsive",
+          "desc": "Optimisé pour une utilisation sur des appareils de bureau et mobiles, garantissant l'accessibilité pour tous les anciens élèves."
+        }
+      ]
+    },
+    "civilTolna": {
+      "title": "Site Civil Tolna",
+      "shortDescription": "Site d'informations officiel pour le Centre de Service Communautaire Civil du Comté de Tolna",
+      "description": "Le Centre de Service Communautaire Civil du Comté de Tolna est une plateforme web conçue pour soutenir et engager la communauté civique locale. Le site sert de centre d'information, avec des mises à jour hebdomadaires comprenant des articles de nouvelles, des documents de référence et des bulletins d'information. Il inclut également une base de données civique publique pour un accès transparent et facile aux ressources communautaires pertinentes. \r\nConstruit avec une interface conviviale et un mini-CMS robuste pour les administrateurs, la plateforme permet une gestion efficace du contenu et garantit que les mises à jour essentielles sont rapidement livrées à la communauté.",
+      "keyFeatures": [
+        {
+          "title": "Mises à jour hebdomadaires des nouvelles",
+          "desc": "Publiez et gérez facilement les nouvelles communautaires pour tenir les utilisateurs informés."
+        },
+        {
+          "title": "Documents de référence & bulletins d'information",
+          "desc": "Dépôt centralisé pour les documents téléchargeables et les bulletins d'information périodiques."
+        },
+        {
+          "title": "Base de données civique publique",
+          "desc": "Base de données transparente et accessible permettant aux membres de la communauté de trouver des informations sur les organisations et initiatives locales."
+        },
+        {
+          "title": "Mini CMS Admin",
+          "desc": "Système de gestion de contenu simplifié pour les administrateurs afin d'ajouter et de mettre à jour efficacement le contenu du site."
+        }
+      ]
+    },
+    "tictactoe": {
+      "title": "Jeu de Tic-Tac-Toe",
+      "shortDescription": "Un jeu de Tic-Tac-Toe personnalisable créé avec Angular, offrant une taille de grille ajustable (jusqu'à 8x8) et des conditions de victoire pour plus de défi et de flexibilité.",
+      "description": "Ce jeu de Tic-Tac-Toe élève le concept classique à un niveau supérieur avec des options de jeu personnalisables. Créé avec Angular, il permet aux utilisateurs de définir la taille de la grille jusqu'à 8x8 et de définir le nombre de marques consécutives nécessaires pour gagner (jusqu'à 8). L'interface épurée et réactive assure une expérience engageante sur tous les appareils. Que ce soit pour jouer de manière décontractée ou tester des compétences stratégiques sur des tableaux plus grands, ce projet ajoute une touche amusante au jeu intemporel.",
+      "keyFeatures": []
+    },
+    "spockup": {
+      "title": "Spockup",
+      "shortDescription": "Sauvegardez vos meilleures listes de lecture Spotify.",
+      "description": "L'objectif de cette application est de fournir une fonctionnalité à tous les utilisateurs de Spotify pour sauvegarder leurs listes de lecture préférées. Vous pouvez créer une sauvegarde à tout moment et apporter des modifications à la liste originale. Vous préférez la version précédente ? Restaurez-la simplement à partir de la sauvegarde.\nCette application n'a pas encore été publiée.",
+      "keyFeatures": [
+        {
+          "title": "Connexion OAuth 2.0",
+          "desc": "L'application est construite en utilisant le flux d'authentification de Spotify pour être sécurisée pour les utilisateurs."
+        },
+        {
+          "title": "Sauvegarde de la liste de lecture",
+          "desc": "Enregistrez votre liste de lecture préférée à tout moment."
+        },
+        {
+          "title": "Restaurer à partir de la sauvegarde",
+          "desc": "Utilisez vos sauvegardes pour restaurer votre liste de lecture."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "Vous avez une question, des commentaires, ou vous voulez simplement dire bonjour ? J'aimerais avoir de vos nouvelles ! Remplissez le formulaire ci-dessous, et je vous répondrai dès que possible.",
+    "submit": "Envoyer",
+    "fields": {
+      "name": {
+        "label": "Votre nom",
+        "min": "Le nom est requis.",
+        "max": "Le nom doit comporter moins de 400 caractères."
+      },
+      "email": {
+        "label": "Votre e-mail",
+        "min": "L'e-mail est requis.",
+        "max": "L'e-mail doit comporter moins de 400 caractères.",
+        "email": "L'adresse e-mail doit être valide."
+      },
+      "subject": {
+        "label": "Objet",
+        "min": "L'objet doit comporter au moins 100 caractères.",
+        "max": "L'objet doit comporter moins de 1000 caractères."
+      }
+    }
+  },
+  "thanks": {
+    "title": "Merci de nous avoir contacté !",
+    "subtitle": "En attendant, pourquoi ne pas découvrir certains de mes projets ou vous connecter avec moi sur LinkedIn.",
+    "cta": "Explorez mes projets"
+  },
+  "languages": {
+    "english": "Anglais",
+    "hungarian": "Hongrois",
+    "japanense": "Japonais (par GPT)",
+    "german": "Allemand (par GPT)",
+    "swedish": "Suédois (par GPT)",
+    "french": "Français (par GPT)"
+  }
+}

@@ -81,22 +81,6 @@ const Projects = () => {
           </Grid2>
         ))}
       </Grid2>
-      {/* <Box
-        display="grid"
-        gridTemplateColumns="repeat(auto-fit, minmax(300px, 1fr))"
-        gap={2}
-        p={2}
-      >
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            project={project}
-            openDrawer={() => {
-              setSelectedProject(project);
-            }}
-          />
-        ))}
-      </Box> */}
       <ProjectDrawer
         selectedProject={selectedProject}
         close={() => setSelectedProject(undefined)}

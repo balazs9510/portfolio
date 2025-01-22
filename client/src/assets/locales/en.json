@@ -7,9 +7,10 @@
   "home": {
     "welcome": "Hello, I'm Balázs Berta",
     "introduction": {
-      "part1": "A passionate software developer dedicated to building innovative solutions and creating seamless digital experiences. With a strong foundation in backend development and a growing expertise in frontend technologies, I transform complex ideas into functional, user-centric applications.",
-      "part2": "I thrive on clean code, effective collaboration, and the constant pursuit of excellence. Outside of coding, I’m an avid learner, always exploring the latest tech trends and improving my craft. <br />Let’s create something extraordinary together. Visit my <1>About</1> page to learn more about my journey, or feel free to get in touch—I’d love to hear from you!"
-    }
+      "part1": "A passionate software developer dedicated to building innovative solutions and creating seamless digital experiences. With a strong foundation in backend development and growing expertise in frontend technologies, I transform complex ideas into functional, user-centric applications.",
+      "part2": "I thrive on writing clean code, fostering effective collaboration, and pursuing excellence in everything I do. Outside of coding, I’m an avid learner, constantly exploring the latest tech trends and refining my skills. <br />Let’s create something extraordinary together! Visit my <1>About</1> page to learn more about my journey, or feel free to get in touch—I’d love to hear from you!"
+    },
+    "seeMyProjects": "See my projects"
   },
   "about": {
     "title": "About me",
@@ -17,7 +18,6 @@
       "title": "My mission",
       "description": "I strive to transform complex ideas into intuitive applications, blending technical expertise with a user-focused approach. My mission is to create seamless digital experiences that empower users and drive innovation."
     },
-
     "experiences": {
       "title": "Work experiences",
       "diligent": {
@@ -147,7 +147,7 @@
     "spockup": {
       "title": "Spockup",
       "shortDescription": "Backup your best Spotify playlists.",
-      "description": "The intention of this applicaiton is to provide a functionaility for all Spotify users to backup their favourite playlists. You can create a backup at any time and do changes on the original list. Do you like the old version better? Just restore it from the backup.\r\nThis app hasn't been released yet.",
+      "description": "The intention of this application is to provide functionality for all Spotify users to backup their favourite playlists. You can create a backup at any time and do changes on the original list. Do you like the old version better? Just restore it from the backup.\nThis app hasn't been released yet.",
       "keyFeatures": [
         {
           "title": "OAuth 2.0 login",

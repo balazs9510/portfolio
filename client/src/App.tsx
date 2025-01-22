@@ -1,6 +1,6 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import createAppTheme from "./config/theme/theme";
 import Layout from "./components/Layout";
 import About from "./components/About/About";

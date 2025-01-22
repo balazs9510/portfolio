@@ -1,16 +1,17 @@
 import { Box, Stack, Typography } from "@mui/material";
-import { Trans, useTranslation } from "react-i18next";
+import { Trans } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import FadeIn from "./FadeIn";
+import FadeIn from "../FadeIn";
+import useTr from "../../hooks/useTr";
 
 const Home = () => {
-  const { t } = useTranslation();
+  const { tr } = useTr();
   return (
     <Stack height="100%" justifyContent="center" mt={8}>
       <FadeIn>
         <Typography variant="h1" gutterBottom>
-          {t("home.welcome")}
+          {tr.home.welcome}
         </Typography>
       </FadeIn>
       <FadeIn delay={0.6}>
@@ -33,7 +34,7 @@ const Home = () => {
       <FadeIn delay={1.8}>
         <Box pt={2}>
           <NavLink to="/projects">
-            See my projects{" "}
+            {tr.home.seeMyProjects}{" "}
             <motion.div
               initial={{ x: 0, display: "inline-block" }}
               animate={{ x: 8 }}

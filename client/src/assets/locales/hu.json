@@ -1,5 +1,203 @@
 {
+  "header": {
+    "about": "Rólam",
+    "projects": "Projektek",
+    "contact": "Kapcsolat"
+  },
   "home": {
-    "welcome": "Üdvözöllek a portfóliómban."
+    "welcome": "Üdv, Berta Balázs vagyok",
+    "introduction": {
+      "part1": "Egy szenvedélyes szoftverfejlesztő, aki elkötelezett az innovatív megoldások építése és a zökkenőmentes digitális élmények megteremtése mellett. Erős hátérrel rendelkezem a backend fejlesztésben, és egyre mélyebb tapasztalatot szerzek a frontend technológiák terén, hogy bonyolult ötleteket funkcionális, felhasználóközpontú alkalmazásokká alakítsak.",
+      "part2": "Imádom az átlátható kódot, a hatékony együttműködést és a folyamatos fejlődést. A programozáson kívül lelkes tanuló vagyok, aki mindig felfedezi a legújabb technológiai trendeket és tökéletesíti tudását. <br />Hozzunk létre valami rendkívülit együtt! Látogass el a <1>Rólam</1> oldalra, hogy többet megtudj az utamról, vagy vedd fel velem a kapcsolatot – szívesen hallanék rólad!"
+    },
+    "seeMyProjects": "Nézd meg a projektjeimet"
+  },
+  "about": {
+    "title": "Rólam",
+    "mission": {
+      "title": "Küldetésem",
+      "description": "Arra törekszem, hogy a komplex ötleteket intuitív alkalmazásokká alakítsam, ötvözve a technikai szakértelmet és a felhasználóközpontú megközelítést. Küldetésem, hogy olyan zökkenőmentes digitális élményeket hozzak létre, amelyek felhatalmazzák a felhasználókat és elősegítik az innovációt."
+    },
+    "experiences": {
+      "title": "Munkahelyi tapasztalatok",
+      "diligent": {
+        "title": "Senior szoftverfejlesztő a Diligentnél",
+        "dateRange": "2024 február – Jelenleg",
+        "description": "A Diligentnél Senior szoftverfejlesztőként különböző feladatokban vettem részt, beleértve az új funkciók fejlesztését a szoftver örökölt helyi verzióihoz, az API tesztelésének javítását, valamint a hibák kijavítását a backend és frontend területeken. Jelenleg a rendszer felhőalapú átírására összpontosítok az AWS-en, miközben új funkciókat adok hozzá a frontendhez és a backendhez. Emellett AWS CDK-val dolgozom az infrastruktúra kezelésének egyszerűsítésén, hogy a rendszer skálázhatóbb és hatékonyabb legyen.",
+        "tags": "AWS CDK, AWS Fargate, AWS Api Gateway,.NET 9,ASP.NET CORE, REST API,React,Playwright,Cypress, Fullstack"
+      },
+      "civilTolna": {
+        "title": "IT technikus (szerződéses) a DUPInál",
+        "dateRange": "2022 május – Jelenleg",
+        "description": "A Civil Egyesületnél kulcsszerepet játszom a technikai kihívások megoldásában. Fő fókuszom az egyesület fő weboldalának fenntartása és fejlesztése, amely Angular 6 segítségével készült és Firebase-en van hosztolva. Az oldal egy mini tartalomkezelő rendszert (CMS) működtet, amely lehetővé teszi a felhasználók számára, hogy CKEditor segítségével hozzáadjanak és kezeljenek híreket. Ezen kívül dinamikus 'sablon' oldalak készítésére is fejlesztettem funkcionalitást, amelyek CKEditor használatával készülnek és Firestore-ból töltődnek be. A fájlok feltöltését is implementáltam Firebase Storage-on keresztül, zökkenőmentes eszközkezelést biztosítva.",
+        "tags": "Firebase,Angular 6,CKEditor,Firestore,Firebase Storage"
+      },
+      "agco": {
+        "title": "IT Fejlesztő II. (MES) az AGCO-nál",
+        "dateRange": "2023 május – 2024 február",
+        "description": "Az AGCO-nál web API-t fejlesztettem és karbantartottam a Manufacturing Execution System (MES) számára, amelyet az AGCO gyáraiban használnak, és a skálázható és biztonságos backend megoldásokra összpontosítottam. Részt vettem a funkciók fejlesztésében, beleértve a jogosultságkezelést és a szerepkör alapú hozzáférés-ellenőrzést, hogy biztosítsuk az adatkezelés biztonságát. Emellett rendszeres karbantartást végeztem és életminőségi fejlesztéseket valósítottam meg a teljesítmény, stabilitás és használhatóság javítása érdekében.",
+        "tags": "Azure Devops,ASP.NET Core, React"
+      },
+      "png": {
+        "title": "Backend fejlesztő a Play'n GO-nál",
+        "dateRange": "2020 június – 2023 március",
+        "description": "Bővítettem az iOS kliens CI/CD pipeline-ját, javítva a fejlesztési és telepítési folyamatot. Fejlesztettem egy külső kliens modult, amely a nyerőgépek játék előzményeit jeleníti meg, javítva a felhasználói adat-hozzáférést. Emellett automatizáltam több belső manuális folyamatot, eszközöket hoztam létre a munkafolyamatok egyszerűsítésére. Továbbá két videó nyerőgépes játék logikáját fejlesztettem, és előkészítettem a játékokat új joghatóságok számára, simítva az új piacra való átállás folyamatát és elérhetővé téve a 300+ játékot. Ez biztosította az új piacok szabályozásainak való megfelelést.",
+        "tags": ".NET 5,PowerShell,Angular,TypeScript,TeamCity,Bitbucket,Jira Automation,XSLT"
+      }
+    },
+    "education": {
+      "title": "Tanulmányok",
+      "bmeMsc": {
+        "title": "Mesterfokozat, Szoftverfejlesztés a Budapesti Műszaki és Gazdaságtudományi Egyetemen",
+        "dateRange": "2018 január - 2020 január",
+        "description": "Szoftverfejlesztési szakon végeztem. A szakdolgozatom egy valós idejű adatokat kezelő foglalási rendszert fejlesztettem.",
+        "tags": "Szoftvermérnök,Szoftverfejlesztés,Ügyfélszolgálati alkalmazások,Üzleti intelligencia,Angular,ASP.NET Core,SignalR"
+      },
+      "bmeBsc": {
+        "title": "Baccalaureat, Szoftverfejlesztés a Budapesti Műszaki és Gazdaságtudományi Egyetemen",
+        "dateRange": "2014 szeptember - 2018 január",
+        "description": "Szoftverfejlesztési szakon végeztem. A szakdolgozatom két mobil fitness alkalmazás fejlesztése natív és cross-platform technológiákkal.",
+        "tags": "Szoftvermérnök,Szoftverfejlesztés,Mesterséges intelligencia,Adatbázisok,ASP.NET,Xamarin Forms,Android"
+      }
+    },
+    "certifications": {
+      "title": "Tanúsítványok",
+      "aws": {
+        "title": "AWS Certified Developer – Associate",
+        "dateRange": "2023 október",
+        "description": "Az AWS-en biztonságos, skálázható és robusztus alkalmazások fejlesztésében és telepítésében szerzett jártasságot igazoló tanúsítvány. Igazolja a szakértelmet az alapvető AWS szolgáltatások, az architektúra legjobb gyakorlatai és az AWS-alapú alkalmazások írása és karbantartása terén. Jártasságot igazol az AWS SDK-k használatában, az alkalmazások teljesítményének optimalizálásában és a felhőalapú környezetek biztonságának és skálázhatóságának biztosításában.",
+        "tags": "AWS SDK-k,Lambda,API Gateway,DynamoDB,S3,CloudFormation,Elastic Beanstalk,RDS,ECS,CI/CD pipelínek,CloudWatch,IAM,StepFunctions,SQS,SNS"
+      },
+      "csharp": {
+        "title": "Exam 483: Programming in C#",
+        "dateRange": "2018 augusztus",
+        "description": "Az Exam 483: Programming in C# tanúsítvány igazolja a C# fejlesztésében való jártasságot, beleértve az objektum-orientált programozást, az aszinkron programozást, a kivételkezelést és az adatkezelést. Igazolja a készségeket a .NET technológiák és ipari legjobb gyakorlatok alkalmazásában.",
+        "tags": "C#,Objektum-orientált programozás,.NET Framework,LINQ,Aszinkron programozás,Kivételkezelés,Kolekciók,Fájl I/O,Események,Delegált"
+      }
+    },
+    "skills": {
+      "title": "Készségek",
+      "advanced": {
+        "title": "Haladó",
+        "skills": "C#,ASP.NET Core,.Net8,TypeScript,SQL,Git,CI/CD"
+      },
+      "intermediate": {
+        "title": "Középszint",
+        "skills": "React,Angular,AWS CDK,AWS CloudFormation,AWS Lambda,AWS ApiGateway,Docker,AWS ECS,jQuery,Bootstrap,Firebase,Jest"
+      },
+      "beginner": {
+        "title": "Kezdő",
+        "skills": "XSLT,PowerShell,Android,Xamarin Forms,Playwright,Cypress"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projektek",
+    "intro": "Itt van néhány projekt, amin szabadidőmben dolgoztam, bemutatva a backend és frontend fejlesztési képességeimet.",
+    "techStack": "Technológiák",
+    "keyFeatures": "Főbb jellemzők",
+    "bosz": {
+      "title": "BÖSZ oldal",
+      "shortDescription": "A Bonyhádi Alumni Egyesület hivatalos információs oldala.",
+      "description": "Egy átfogó portál, amelyet a középiskolám alumni közössége számára építettem, felhasználóbarát felülettel a tagok számára, hogy kapcsolatba lépjenek, frissítéseket osszanak meg, és tájékozódjanak. Az oldal tartalmazott egy admin panelt is, amely egy mini CMS-t biztosított a tartalom kezelésére.",
+      "keyFeatures": [
+        {
+          "title": "Osztály Tábla Néző",
+          "desc": "Egy egyedi komponens, amely dinamikusan, kereshető módon és interaktívan jeleníti meg az osztályfotókat."
+        },
+        {
+          "title": "Admin panel",
+          "desc": "Egy mini CMS, amely lehetővé teszi az adminisztrátorok számára, hogy hatékonyan kezeljék az alumni adatokat, eseményeket és frissítéseket."
+        },
+        {
+          "title": "Reszponzív dizájn",
+          "desc": "A desktop és mobil eszközök közötti optimális használatra tervezték, biztosítva, hogy minden alumni hozzáférhessen."
+        }
+      ]
+    },
+    "civilTolna": {
+      "title": "Civil Tolna oldal",
+      "shortDescription": "A Tolna Megyei Polgári Közösségi Szolgáltató Központ hivatalos információs oldala",
+      "description": "A Tolna Megyei Polgári Közösségi Szolgáltató Központ egy webplatform, amelyet a helyi polgári közösség támogatására és bevonására terveztek. Az oldal információs központként működik, heti frissítésekkel, hírekről szóló cikkekkel, hivatkozási dokumentumokkal és hírlevelekkel. Továbbá tartalmaz egy nyilvános polgári adatbázist a releváns közösségi erőforrások átlátható és egyszerű eléréséhez. \r\nFelhasználóbarát felülettel és egy robusztus mini CMS-sel az adminisztrátorok számára, a platform lehetővé teszi a hatékony tartalomkezelést és biztosítja, hogy a fontos frissítések gyorsan elérjék a közösséget.",
+      "keyFeatures": [
+        {
+          "title": "Heti hírek frissítése",
+          "desc": "Könnyedén közzéteheti és kezelheti a közösségi híreket, hogy tájékoztassa a felhasználókat."
+        },
+        {
+          "title": "Hivatkozási dokumentumok és hírlevelek",
+          "desc": "Centralizált tárolóhely a letölthető dokumentumokhoz és időszakos hírlevelekhez."
+        },
+        {
+          "title": "Nyilvános polgári adatbázis",
+          "desc": "Átlátható és hozzáférhető adatbázis, ahol a közösségi tagok releváns információkat találhatnak a helyi szervezetekről és kezdeményezésekről."
+        },
+        {
+          "title": "Admin Mini CMS",
+          "desc": "Egyszerűsített tartalomkezelő rendszer az adminisztrátorok számára, hogy hatékonyan hozzáadják és frissítsék az oldaltartalmakat."
+        }
+      ]
+    },
+    "tictactoe": {
+      "title": "Tic-Tac-Toe Játék",
+      "shortDescription": "Egy testreszabható Tic-Tac-Toe játék, amelyet Angular segítségével építettek, és amely állítható rácsméretet (akár 8x8) és nyerési feltételeket kínál a kihívás és rugalmasság érdekében.",
+      "description": "Ez a Tic-Tac-Toe játék a klasszikus koncepciót egy következő szintre emeli, testreszabható játékmeneti lehetőségekkel. Angular használatával épült, lehetővé téve a felhasználók számára a rácsméret beállítását akár 8x8-ig, és a győzelemhez szükséges egymást követő jelölések számának meghatározását (akár 8). A tiszta és reszponzív felület biztosítja a szórakoztató élményt minden eszközön. Legyen szó pihenésről vagy stratégiai készségek teszteléséről nagyobb táblákon, ez a projekt szórakoztató csavart ad a klasszikus játéknak.",
+      "keyFeatures": []
+    },
+    "spockup": {
+      "title": "Spockup",
+      "shortDescription": "Biztonságosan mentse el a legjobb Spotify lejátszási listáit.",
+      "description": "Ennek az alkalmazásnak a célja, hogy lehetőséget biztosítson minden Spotify felhasználó számára kedvenc lejátszási listáik biztonsági mentésére. Bármikor készíthet mentést, és módosíthatja az eredeti listát. Jobban tetszik a régi verzió? Egyszerűen állítsa vissza a biztonsági mentésből.\nEz az alkalmazás még nem került kiadásra.",
+      "keyFeatures": [
+        {
+          "title": "OAuth 2.0 bejelentkezés",
+          "desc": "Az alkalmazás a Spotify Auth folyamatot használja, hogy biztonságos legyen a felhasználók számára."
+        },
+        {
+          "title": "Lejátszási lista biztonsági mentése",
+          "desc": "Bármikor elmentheti kedvenc lejátszási listáját."
+        },
+        {
+          "title": "Visszaállítás biztonsági mentésből",
+          "desc": "Használja a biztonsági mentéseit a lejátszási lista újraállításához."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Lépj kapcsolatba velem",
+    "subtitle": "Van kérdésed, visszajelzésed, vagy csak üdvözölni szeretnél? Szívesen hallanék rólad! Töltsd ki az alábbi űrlapot, és amint tudok, válaszolok.",
+    "submit": "Beküldés",
+    "fields": {
+      "name": {
+        "label": "A neved",
+        "min": "A név kötelező.",
+        "max": "A névnek kevesebb mint 400 karakter hosszúnak kell lennie."
+      },
+      "email": {
+        "label": "Az e-mail címed",
+        "min": "Az e-mail cím kötelező.",
+        "max": "Az e-mail címnek kevesebb mint 400 karakter hosszúnak kell lennie.",
+        "email": "Érvényes e-mail címet kell megadni."
+      },
+      "subject": {
+        "label": "Tárgy",
+        "min": "A tárgy legalább 100 karakter hosszú kell legyen.",
+        "max": "A tárgynak kevesebb mint 1000 karakter hosszúnak kell lennie."
+      }
+    }
+  },
+  "thanks": {
+    "title": "Köszönöm, hogy kapcsolatba léptél!",
+    "subtitle": "Addig is, miért ne néznéd meg néhány projektet, vagy lépj kapcsolatba velem a LinkedIn-en.",
+    "cta": "Fedezd fel a projektjeimet"
+  },
+  "languages": {
+    "english": "Angol",
+    "hungarian": "Magyar",
+    "japanense": "Japán (GPT által)",
+    "german": "Német (GPT által)",
+    "swedish": "Svéd (GPT által)",
+    "french": "Francia (GPT által)"
   }
 }
