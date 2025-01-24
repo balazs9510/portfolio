@@ -19,15 +19,14 @@ export const lightPalette: AppPalette = {
 };
 
 export const darkPalette: AppPalette = {
-  primary: "#212529", // Dark gray
-  secondary: "#495057", // Lighter gray
+  primary: "#FFFFF", // Muted light gray for primary accents
+  secondary: "#FFFFF", // Softer light gray for secondary accents
   background: "#121212", // Dark background
   surface: "#1E1E1E", // Slightly lighter dark gray for surfaces
-  textPrimary: "#E9ECEF", // Light gray for text
+  textPrimary: "#FFFFF", // Light gray for primary text
   textSecondary: "#ADB5BD", // Muted gray for secondary text
-  border: "#343A40", // Subtle dark gray for dividers/borders
+  border: "#343A40", // Dark gray for dividers/borders
 };
-
 export const chipColors = [
   "#6C757D", // Muted gray (matches textSecondary)
   "#ADB5BD", // Lighter gray with a hint of blue

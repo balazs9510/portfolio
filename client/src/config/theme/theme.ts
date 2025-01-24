@@ -1,12 +1,20 @@
-import { createTheme } from "@mui/material/styles";
+import { createTheme, PaletteMode } from "@mui/material/styles";
 import { darkPalette, lightPalette } from "./colors";
 
 const createAppTheme = (mode: "light" | "dark" = "light") => {
   const palette = mode === "light" ? lightPalette : darkPalette;
+
+  const paletteMode: PaletteMode = mode === "light" ? "light" : "dark";
   return createTheme({
     palette: {
+      mode: paletteMode, // Ensures MUI's built-in light/dark logic applies
       primary: { main: palette.primary },
       secondary: { main: palette.secondary },
+
+      // text: {
+      //   primary: palette.textPrimary,
+      //   secondary: palette.textSecondary,
+      // },
     },
     typography: {
       fontFamily: "'Roboto', sans-serif",

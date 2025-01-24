@@ -4,12 +4,19 @@ import Footer from "./Footer";
 
 type LayoutProps = {
   children: JSX.Element;
+  nightMode: boolean;
+  setNightMode: (isSet: boolean) => void;
 };
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children, nightMode, setNightMode }: LayoutProps) => {
   return (
     <Stack height="100%" width="100%">
-      <Header />
-      <Stack component="main" flexGrow="1" padding='2rem'>
+      <Header nightMode={nightMode} setNightMode={setNightMode} />
+      <Stack
+        component="main"
+        flexGrow="1"
+        padding="2rem"
+        sx={{ maxWidth: "1500px", margin: "auto" }}
+      >
         {children}
       </Stack>
       <Footer />

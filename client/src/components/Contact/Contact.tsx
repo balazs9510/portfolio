@@ -1,4 +1,4 @@
-import { Button, Paper, TextField, Typography } from "@mui/material";
+import { Box, Button, Paper, TextField, Typography } from "@mui/material";
 import useTr from "../../hooks/useTr";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -79,7 +79,7 @@ const Contact = () => {
   );
 
   return (
-    <>
+    <Box>
       <Typography variant="h1" mb={2}>
         {tr.contact.title}
       </Typography>
@@ -98,7 +98,7 @@ const Contact = () => {
           </Button>
         </form>
       </Paper>
-    </>
+    </Box>
   );
 };
 

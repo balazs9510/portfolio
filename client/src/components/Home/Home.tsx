@@ -8,7 +8,7 @@ import useTr from "../../hooks/useTr";
 const Home = () => {
   const { tr } = useTr();
   return (
-    <Stack height="100%" justifyContent="center" mt={8}>
+    <Stack height="100%" justifyContent="center">
       <FadeIn>
         <Typography variant="h1" gutterBottom>
           {tr.home.welcome}

@@ -59,8 +59,8 @@ function LanguageSwitcher() {
       >
         <Avatar
           sx={{
-            width: 50,
-            height: 50,
+            width: 30,
+            height: 30,
             border: `2px solid ${theme.palette.primary.main}`, // Blue border for accent
             backgroundColor: "#f3f3f3",
             fontSize: "1.5rem",
