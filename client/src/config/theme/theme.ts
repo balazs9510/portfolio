@@ -10,11 +10,6 @@ const createAppTheme = (mode: "light" | "dark" = "light") => {
       mode: paletteMode, // Ensures MUI's built-in light/dark logic applies
       primary: { main: palette.primary },
       secondary: { main: palette.secondary },
-
-      // text: {
-      //   primary: palette.textPrimary,
-      //   secondary: palette.textSecondary,
-      // },
     },
     typography: {
       fontFamily: "'Roboto', sans-serif",

@@ -19,8 +19,8 @@ export const lightPalette: AppPalette = {
 };
 
 export const darkPalette: AppPalette = {
-  primary: "#FFFFF", // Muted light gray for primary accents
-  secondary: "#FFFFF", // Softer light gray for secondary accents
+  primary: "#FFFFFF", // Muted light gray for primary accents
+  secondary: "#cdcbcb", // Softer light gray for secondary accents
   background: "#121212", // Dark background
   surface: "#1E1E1E", // Slightly lighter dark gray for surfaces
   textPrimary: "#FFFFF", // Light gray for primary text

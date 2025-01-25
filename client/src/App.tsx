@@ -8,7 +8,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Thanks from "./components/Thanks/Thanks";
 import { useState } from "react";
-import { darkPalette, lightPalette } from "./config/theme/colors";
+import Background from "./components/Background";
 
 function App() {
   const nightModeKey = "NIGHT_MODE_KEY";
@@ -18,26 +18,18 @@ function App() {
   const [nightMode, setNightMode] = useState<boolean>(val);
 
   const mode = nightMode ? "dark" : "light";
-  const palette = mode === "light" ? lightPalette : darkPalette;
   const theme = createAppTheme(mode);
+
   const setMode = (isSet: boolean) => {
     localStorage.setItem(nightModeKey, isSet ? "true" : "false");
     setNightMode(isSet);
   };
-  const bgUrl = mode === "light" ? "./light_bg.svg" : "./night_bg.svg";
+
   return (
-    <Box sx={{ backgroundColor: palette.background, width: "100%" }}>
+    <Box sx={{ width: "100%" }}>
       <ThemeProvider theme={theme}>
-        <Box
-          sx={{
-            backgroundImage: `url("${bgUrl}")`,
-            backgroundSize: "300px",
-            height: "100%",
-            overflow: "auto",
-          }}
-        >
+        <Background mode={mode}>
           <CssBaseline />
-          {/* basename is set for matching the GH pages */}
           <HashRouter>
             <Layout nightMode={nightMode} setNightMode={setMode}>
               <Routes>
@@ -49,7 +41,7 @@ function App() {
               </Routes>
             </Layout>
           </HashRouter>
-        </Box>
+        </Background>
       </ThemeProvider>
     </Box>
   );

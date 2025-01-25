@@ -14,12 +14,12 @@ const Home = () => {
           {tr.home.welcome}
         </Typography>
       </FadeIn>
-      <FadeIn delay={0.6}>
+      <FadeIn delay={0.4}>
         <Typography variant="body1" gutterBottom>
           <Trans i18nKey="home.introduction.part1"></Trans>
         </Typography>
       </FadeIn>
-      <FadeIn delay={1.2}>
+      <FadeIn delay={.8}>
         <Typography variant="body1">
           <Trans i18nKey="home.introduction.part2">
             I thrive on clean code, effective collaboration, and the constant
@@ -31,7 +31,7 @@ const Home = () => {
           </Trans>
         </Typography>
       </FadeIn>
-      <FadeIn delay={1.8}>
+      <FadeIn delay={1.2}>
         <Box pt={2}>
           <NavLink to="/projects">
             {tr.home.seeMyProjects}{" "}

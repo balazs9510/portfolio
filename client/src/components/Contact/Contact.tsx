@@ -1,4 +1,11 @@
-import { Box, Button, Paper, TextField, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Paper,
+  TextField,
+  Typography,
+  useTheme,
+} from "@mui/material";
 import useTr from "../../hooks/useTr";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -8,6 +15,8 @@ import useContactSchema, { ContactSchemaType } from "./Contact.schema";
 const Contact = () => {
   const { tr } = useTr();
   const navigate = useNavigate();
+  const theme = useTheme();
+  const isNightMode = theme.palette.mode === "dark";
 
   const {
     control,
@@ -93,7 +102,11 @@ const Contact = () => {
           {renderField("email")}
           {renderField("subject", undefined, true)}
 
-          <Button variant="contained" type="submit">
+          <Button
+            variant={isNightMode ? "outlined" : "contained"}
+            type="submit"
+            color="primary"
+          >
             {tr.contact.submit}
           </Button>
         </form>
