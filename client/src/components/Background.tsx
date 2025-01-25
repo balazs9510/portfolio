@@ -7,7 +7,7 @@ const Background = ({
   mode: "dark" | "light";
   children: React.ReactNode;
 }) => {
-  const bgUrl = mode === "light" ? "./portfolio/light_bg.svg" : "./portfolio/night_bg.svg";
+  const bgUrl = mode === "light" ? "./light_bg.svg" : "./night_bg.svg";
 
   return (
     <Box
