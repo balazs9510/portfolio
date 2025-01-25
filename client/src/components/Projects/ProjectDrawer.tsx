@@ -93,12 +93,7 @@ const ProjectDrawer = ({ selectedProject, close }: ProjectDrawerProps) => {
             <Typography variant="body1">{t("projects.techStack")}:</Typography>
             <Stack flexDirection="row" gap={1}>
               {selectedProject.techStack.map((tech, index) => (
-                <Chip
-                  key={index}
-                  label={tech}
-                  size="medium"
-                  sx={{ bgcolor: "primary.light", color: "white" }}
-                />
+                <Chip key={index} label={tech} size="medium" />
               ))}
             </Stack>
           </Stack>
